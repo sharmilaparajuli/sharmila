@@ -111,7 +111,7 @@ git push -u origin master
 > Creating branch
 ```
 git branch <branch_name>
-``
+```
 
 > Checkout into branch
 ```

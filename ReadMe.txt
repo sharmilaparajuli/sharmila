@@ -13,28 +13,18 @@ Create home2.html and add css to h1 tag to make it better
 <h1 style="color:#eee;background:darkcyan;padding:20px;"> </h1>
 
 
--------------------- 
+------------ 
 
-Let's get started with git and github
+Task : 
 
+- Let’s create simple website of your college
+	* Create a new project folder
+	* Create index.html file 
+	* Create about.html file
+	* Create contact.html file
 
-Create a local git repository 
-Add a new file to the repo
-Initializing a Repository
-Add a file to the staging environment
-Create a commit
-Create a new branch
-Create a new repository on GitHub
-Push a branch to GitHub
-Create a Pull Request (PR)
-Merge a PR
-Get changes on GitHub back to your computer
-git log
-set url
+- Create a repo.
 
+- Push your code into repo
 
-
-
-
-
-
+- Launch this project 

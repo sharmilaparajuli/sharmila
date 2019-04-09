@@ -9,7 +9,6 @@
 - It’s a place where you can play and experiment. 
 - It’s a place where you can find the most incredible open-source information, emerging technologies, features, and designs. It’s a place to learn and it’s a place to get involved. 
 
-
 ## Why github 
 
 * Save Time: Git is lightning fast. And although we're talking about only a few seconds per command, it quickly adds up in your work day. Use your time for something more useful than waiting for your version control system to get back to you.
@@ -71,3 +70,102 @@ Forks allow you to freely make changes to a project without affecting the origin
 * Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another.
 * A merge can be done automatically via a Pull Request via the GitHub.com web interface if there are no conflicting changes, or can always be done via the command line. 
 * By now you should be equipped with knowledge of Git and GitHub top terminologies and features of which you should hopefully start putting into practice. Of course, there are plenty of other rich features of GitHub especially, which we implore you to discover on your own.
+
+
+## Let's get started with git and github
+
+> Cloning project
+```
+git clone <repo_url>
+```
+
+> Initializing git
+```
+git init
+```
+
+> Working locally
+ 
+> Adding changed files
+ - Check changed files
+ ```
+git status
+ ```
+
+ then add files that you want to commit.
+ 
+```
+git add <file_name/folder_name>
+ ```
+
+> Commiting changes
+```
+git commit -m "<Commit_message>"
+```
+
+> Pushing chnages (master branch)
+```
+git push -u origin master
+```
+
+> Creating branch
+```
+git branch <branch_name>
+``
+
+> Checkout into branch
+```
+git checkout <branch_name>
+```
+
+> Working locally on branch
+
+
+> Adding changed files
+ ```
+git status
+ ```
+
+```
+git add <file_name/folder_name>
+ ```
+
+> Commiting changes
+```
+git commit -m "<Commit_message>"
+```
+
+> Pusing changes (new branch)
+```
+git push -u origin <branch_name>
+```
+
+> Creating pull request
+
+> Review changes
+
+> Merging into master (from pull request)
+
+> Pulling changes (pull from master)
+```
+git pull 
+```
+
+> Merging one branch into another branch 
+
+```
+git checkout <branch_name>
+git pull
+git merge origin/<another-branch_name>
+
+```
+
+> View log 
+```
+git log
+```
+or
+```
+git log --oneline
+```
+
